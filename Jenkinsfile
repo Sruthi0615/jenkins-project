@@ -3,6 +3,7 @@ pipeline {
 
     stages {
         stage('Build') {
+            // Build stage updated
             steps {
                 echo 'Building application...'
             }
